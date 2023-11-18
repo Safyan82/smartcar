@@ -1,0 +1,24 @@
+{
+  "name": "starter-app-react-node-server",
+  "version": "1.0.0",
+  "description": "Node server for the starter app",
+  "main": "index.js",
+  "scripts": {
+    "debug": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^9.0.0",
+    "smartcar": "^9.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.4.0",
+    "npm": ">=8.3.0"
+  }
+}
